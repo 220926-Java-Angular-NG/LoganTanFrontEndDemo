@@ -12,18 +12,52 @@ this markup language is used for creating we pages and applications <!DOCTYPE ht
         <meta charset="utf-8">
     </head>
     <body>
-        <div>
-            <p>
-                Paragraph
-            </p>
+        <div data-video="NGG_aqfmulk" data-autoplay="1" data-loop="1" id="youtube-audio" class="Audio" hidden></div>
+        <script src="https://www.youtube.com/iframe_api"></script>
+        <script src="https://cdn.rawgit.com/labnol/files/master/yt.js"></script>
+
+        <div class="main">
             <h1>
-                h1
+               About Logan Tan
             </h1>
-            <h2>
-                H2
-            </h2>
+            <div class="Parent">
+                <div class="Center-Child">
+                    <h4>
+                        Github
+                    </h4>
+                </div>
+                <div class="Right-Child">
+                    <h4>
+                        Address
+                    </h4>
+                </div>
+                <div class="Left-Child">
+                    <h4>
+                        Phone
+                    </h4>
+                </div>
+            </div>
+            <div class="Parent">
+                <div class="Center-Child">
+                    <h2>
+                        <a href="https://github.com/Long-hin">https://github.com/Long-hin</a>
+                    </h2>
+                </div>
+                <div class="Right-Child">
+                    <h2>
+                        4005 NE 118th St Vancouver WA
+                    </h2>
+                </div>
+                <div class="Left-Child">
+                    <h2>
+                        360-607-5333
+                    </h2>
+                </div>
+            </div>
+
+            <hr>
             <h3>
-                H3
+                <a href="https://www.youtube.com/watch?v=NGG_aqfmulk">Music From Youtube, if this was not a personal site I would not leave this here</a>
             </h3>
         </div>
 
@@ -33,47 +67,32 @@ this markup language is used for creating we pages and applications <!DOCTYPE ht
         <br>
 
         <div>
-            <h3>
-                Link test
-            </h3>
-            <P>
-                <a href="https://www.google.com">click me</a>
-            </P>
-        </div>
-
-        <br>
-
-        <div>
             <h2>
-                table tests
+                Games Backlog
             </h2>
             <table>
-                <thead>
-                    <tr>
-                        <th>
-                            ID 
-                        </th>
-                        <th>
-                            Name
-                        </th>
-                    </tr>
-                </thead>
-                
                 <tbody>
                     <tr>
                         <td>1</td>
-                        <td>Leanne</td>
+                        <td><a href="https://en.wikipedia.org/wiki/Xenoblade_Chronicles_3">Xenobalde Chronicles 3</a></td>
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td>Vashryon</td>
+                        <td><a href="https://en.wikipedia.org/wiki/Resonance_of_Fate">Resonance of fate</a></td>
                     </tr>
                     <tr>
                         <td>3</td>
-                        <td>Zephyr</td>
+                        <td><a href="https://en.wikipedia.org/wiki/Mario_%2B_Rabbids_Sparks_of_Hope">Mario + Rabbids Sparks of Hope</a></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td><a href="https://en.wikipedia.org/wiki/Bayonetta_3">Bayonetta 3</a></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td><a href="https://en.wikipedia.org/wiki/Fire_Emblem_Engage">Fire Emblem Engage</a></td>
                     </tr>
                 </tbody>
-
             </table>
         </div>
         <div>
@@ -95,6 +114,48 @@ this markup language is used for creating we pages and applications <!DOCTYPE ht
             </ul>
         </div>
 
+    <div style="text-align: center;">
+        <form action="" method="dialog">
+            <label for="first-name">first name</label><br>
+            <input type="text" id="first-name" name="first-name" value=""><br>
+            <label for="lastname">last name</label><br>
+            <input type="text" id="last-name" name="first-name" value=""><br>
+            
 
+        </form>
+    </div>
+
+    <div>
+        <form action="" method="get">
+            <input type="radio" id="odd" name="evenodd" value="">
+            <label for="odd">Odd</label><br>
+            <input type="radio" id="even" name="evenodd" value="">
+            <label for="even">Even</label><br>
+            
+            
+
+        </form>
+    </div>
+    <div>
+        <form action="" method="post">
+            <label for="filesSelect">Upload</label>
+            <input type="file" id="fileSelect">
+            <br>
+            <br>
+            <br>
+
+            <label for="Country">select Country</label><br>
+            <select name="Country" id="Country">
+                <option value="N/A">N/A</option>
+                <option value="United States">US</option>
+                <option value="Canada">CA</option>
+                <option value="Mexico">MX</option>
+            </select>
+        </form>
+    </div>
+
+    <div>
+
+    </div>
     </body>
 </html>

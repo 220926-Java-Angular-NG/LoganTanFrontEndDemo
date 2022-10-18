@@ -1,7 +1,37 @@
 body {
-    background-color: aquamarine;
-}
+    background-image: linear-gradient(to bottom right,black,rgb(1, 44, 1),rgb(50, 112, 50));
+    color: white;
 
-h1{
-    color: lavender;
+}
+hr {
+    height: 30px;
+    border-style: none;
+    background-image: linear-gradient(to right,rgb(233, 174, 66),rgb(96, 96, 231));
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.Parent{
+    display: flex;
+    text-align: center;
+    line-height: 0px;
+}
+.Center-Child{
+    width: 50%;
+    float:center;
+}
+.Right-Child{
+    width: 50%;
+    float:right;
+}
+.Left-Child{
+    width: 50%;
+    float:left;
+}
+.main{
+    text-align: center;
+
+}
+.Audio{
+    width: 0px;
+    height: 0px;
 }
