@@ -10,6 +10,14 @@ hr {
     margin-left: 30px;
     margin-right: 30px;
 }
+table, th, td{
+    background-color: gray;
+    color: black;
+    border: solid;
+    text-align: center;
+    border-color: aquamarine;
+    border-spacing: 0px;
+}
 .Parent{
     display: flex;
     text-align: center;
